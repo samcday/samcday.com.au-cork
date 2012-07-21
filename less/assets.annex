@@ -1,0 +1,7 @@
+{
+	"handler": "less",
+	"root": "css",
+	"files": [
+		"bootstrap.less"
+	]
+}
