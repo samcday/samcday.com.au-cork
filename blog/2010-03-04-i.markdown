@@ -1,0 +1,47 @@
+---
+date: '2010-03-04 14:21:17'
+layout: post
+slug: i
+status: publish
+title: 'I '
+wordpress_id: '43'
+categories:
+- Games
+---
+
+I stumbled across [this announcement from The Escapist](http://www.escapistmagazine.com/news/view/98776-Crazy-Valve-ARG-Teases-Portal-2-Update) while surfing yesterday.
+
+Valve released a random update to Portal via Steam a couple of days ago, the cute little radio at the start of the game now plays random sounds if you carry it with you to different locations in the game. The first room you take it in plays some morse code, other areas are actually [SSTV](http://en.wikipedia.org/wiki/SSTV) transmissions. Some clever fellows have figured all this out and determined that the images direct them to a [BBS](http://en.wikipedia.org/wiki/Bulletin_board_system), which, once logged into (using credentials hidden in the images from the game) spits out a heap of ASCII artwork and random stuff, as can be seen [ here.](http://img341.imageshack.us/img341/6278/portalascii.png)
+
+The images look pretty cool, but I laughed pretty hard when I read one of the decoded "confidential" memos, which reads as follows:
+
+
+
+> 
+CONFIDENTIAL
+October 17th, 1976
+Re: Human Enrichment & Testing Initiative, Resource Aquisitions
+
+1. "Low Risk Human Resource Aquisitions"
+a. Hoboes & Tramps
+Lives spent wandering aimlessly, cowering before authority, and drinking concussive amounts of home-distilled potato alcohol make hoboes the perfect Human Enrichment test subjects. The hobo questions nothing, will follow orders if fed, and, like all hoboes, has a restless, wandering heart. (Note: The wandering heart of the hobo should not be confused with the Drifting Heart Syndrome, which several transients contracted during testing.)
+
+b. Child Orphans and Foundlings
+Deep-rooted abandonment issues leave most orphans highly susceptible to shame-based psychology (for a complete list of opportune moments to obliterate the esteem of test subjects, please consult training video M89-D, "You'd Perform This Test Better If You Had Parents"). Recent advances in the use of scorn, flattery used in an ironic context and naked contempt as motivational tools have yielded similarly profitable results.
+
+c. Psychiatric Patients
+Past experience shows these fellows are simply not shy at all about carrying on, disrupting tests and defecating just about anywhere that pleases them. Frankly, it's off-putting, and small wonder why Aperture-brand mental institutes are being phased out in favour of more orphanages.
+
+d. Seniors
+Frail, brittle hands make holding science devices difficult. Most were born before the advent of science, and can become confused and disoriented when asked to participate in relatively simple tests (teleportation, invisibility, adjusting esteem levels of orphan children).
+
+
+
+
+LOL.
+
+Anyway, it seems the images are possibly hinting towards a Portal 2 announcement soon. Also, some people have speculated that one of the images that references "GLaDOS v3.11" could be referencing the date March 11, when Gabe Newell is scheduled to [receive his Pioneer award at the Game Developers Conference](http://news.bigdownload.com/2010/01/15/valves-gabe-newell-to-receive-game-developers-choice-pioneer-aw/).
+
+Exciting stuff, to say the least!
+
+**UPDATE:** AHMAGAWD Portal now has a different ending in-game, as can be seen in this [Youtube video](http://www.youtube.com/watch?v=g7lgqS-yq88). Cannot wait for March 11th announcement! What sucks is being Aussie and having to wait until March 12th...

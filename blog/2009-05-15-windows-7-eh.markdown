@@ -1,0 +1,22 @@
+---
+date: '2009-05-15 08:58:36'
+layout: post
+slug: windows-7-eh
+status: publish
+title: Windows 7 eh ....
+wordpress_id: '7'
+categories:
+- Technology
+---
+
+Damnit. I can't find anything about Windows 7 to hate :(
+
+Have been using it for a few days now. From the initial bootup everything was incredibly smooth. All my hardware was fine (including my USB wireless adapter), didn't need to install software or drivers for anything.
+
+It runs beautifully, I don't have concrete numbers obviously but it really feels just as smooth and responsive as a vanilla installation of WinXP. Compatbility has been fine, I haven't come across any applications I use frequently that aren't working or exhibiting odd behaviour. I love the new taskbar while it is a big change I found it very natural and intuitive straight away, without needing to read any tips or tricks, or seek help.
+
+While not really important or relevant, I must say I'm thoroughly enjoying the desktop background slideshows, some amazing art and the LAST place I would expect to find it is on a vanilla Microsoft Windows installation. Fantastic :)
+
+The Windows Virtual Machine beta is ok, but it's just that, a beta. It's still pretty rough around the edges and there's plenty of kinks to be ironed out. Also Windows Media Player 12 was a bit dodgy, it didn't want to remember my media library everytime I closed it down. Beyond that I really haven't had any issues.
+
+Dear Microsoft, thank you for designing an operating system that works!

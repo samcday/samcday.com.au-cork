@@ -1,0 +1,33 @@
+---
+date: '2011-03-03 08:47:40'
+layout: post
+slug: node-js
+status: publish
+title: Node.js
+wordpress_id: '163'
+categories:
+- Node.js
+- Programming
+tags:
+- Javascript
+- Node
+- Node.js
+- Server Side Javascript
+- SSJS
+---
+
+Since I haven't updated my blog for a few months I figure now would be a good time to do a bit of a brain dump on what is interesting to me nowadays.
+
+Currently I'm completely immersed in the weird and wondrous world of [Node.js](http://www.nodejs.org). If you are even remotely interested in anything related to web development/engineering, you should already know about Node. Briefly, it's a server side JavaScript (SSJS) implementation built on top of Google's V8 JavaScript engine. It's blisteringly fast, and has already been employed in some big projects to solve some pretty insane scaling problems engineers are facing in large websites.
+
+Currently I'm just getting myself acquainted with Node.js, I've written some random libs that are on my [Github](http://www.github.com/samcday). Currently I'm writing a native Node extension called [node-gitteh](http://www.github.com/samcday/node-gitteh), which provides bindings to the excellent C library [libgit2](http://libgit2.github.com). I'll be using these bindings to manipulate Git repositories from Node as part of a little project I'm going to undertake (more on that later).
+
+Writing these bindings has been interesting, given that I'm writing C++ code for the first time in years, and having more trouble remembering how to use an STL map<> than I am wrangling the bizarro V8 API. I think this definitely warrants a tip of the hat to Google, the internals of V8 are pretty accessible; my only gripe with V8 is a pretty painful lack of hand-holding documentation, however there were plenty of examples of stuff on Github from other kindred Node spirits who've written bindings for things like [GD](https://github.com/taggon/node-gd), [Mysql](https://github.com/Sannis/node-mysql-libmysqlclient), [libxml2](https://github.com/polotek/libxmljs) and the like.
+
+The thing that has impressed me about Node the most is the amount of talent the community is comprised of. Node is only just over a year old and there is already a mass of quality libraries and frameworks. One I particularly love is [Vows](http://www.github.com/cloudhead/vows), which has made TDD an absolute breeze in Node. If you're just starting out with Node, I thoroughly recommend you get into the habit of using Vows to test your code, ideally writing the tests before you even launch into your next Javascripty wet dream. Seriously, it's worth it.
+
+Of course, Node is not without it's faults. The biggest one currently is lack of threaded-ness, or any kind of concurrency control from JavaScript. Many will argue this is a Good Thing, as it abstracts away the misery that is semaphores, locks, re-entrancy and other goodies that come with thread-safety. However I still think there should be first-class support for concurrent operations in Node user land (read: JavaScript code).
+
+There are some solutions out there that utilize nodes ability to spawn child processes and communicate/control them effectively, to the effect of running a pool of Node processes. However I view these as a kludge, as Node processes do have a pretty decent memory footprint on initialization. Given that Chrome has a way of running completely sandboxes JavaScript execution contexts in parallel (that is, a blocking script in one frame wouldn't block other frames), I'm sure there's an elegant solution to be found.
+
+That's all for now!

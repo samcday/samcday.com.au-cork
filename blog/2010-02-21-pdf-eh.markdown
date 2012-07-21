@@ -1,0 +1,26 @@
+---
+date: '2010-02-21 18:46:51'
+layout: post
+slug: pdf-eh
+status: publish
+title: PDF eh?
+wordpress_id: '22'
+categories:
+- Technology
+---
+
+So I've been working on this little contract project for a good few months. One of the biggest outcomes of the system is for it to compile a PDF containing some 250+ odd pages of data that the system maintains. This PDF is in print-ready format, complete with bleed+trim, header and footer, and other page-by-page design elements. The generated PDF is incorporated into a book that is published annually. Essentially the PDF I'm generating makes up most of the "meat" of the book.
+
+It's been a pretty interesting experience. Since the system I developed for the client is written in Java, I needed a Java-based library to work with. I evaluated what was already out there ... iText, FOP and the like. Most of them seemed great, but I wasn't confident I'd get the job done with these. I was especially concerned with FOP, as it seemed to be somewhat stateless, I needed alot of control over the output of the PDF, things like being able to calculate widths and heights of text blocks on the fly, specific setups of margins that I can change at will (because this is a book PDF I needed to change margins on odd/even pages to compensate for book spine) etc.
+
+In the end I settled for a pretty obscure library called **[Java FPDF](http://javafpdf.sourceforge.net/)**. I was confident with this choice because I've worked a fair bit with the original PHP library - [FPDF](http://www.fpdf.org/). I actually used the original library to complete a similar task to the one at hand... albeit a far simpler version.
+
+It came with a few bugs out of the box (MultiCell with borders or fill was broken, there was a simple fix however), I also refactored the original codebase a little bit, some silly things were being done like imagedata being loaded as byte[] data and then put inside a String.
+
+The only major complication I ran into with this library was when I realized that it didn't have support for embedded fonts like the original library does. I ended up coding this support in and writing a little utility PHP script that converts the original FPDF font definition files into a JFPDF readable one. This complication ended up being quite educational however, as I had to plumb the murky depths of the PDF file specification to understand how font files are embedded and referenced.
+
+I'm planning on packaging up the changes and improvements I made to the Java FPDF library in hopes that it will benefit someone else.
+
+As for the original task, I've almost completed the initial revision ready for client review. I have no doubt there will be many tweaks and improvements requested but I can't wait to see the end result in a tangible form. I actually got to handle one of the books that was outputted by the previous PHP project I mentioned before. It was a pretty amazing feeling to hold something physical that resulted from my long nights of caffeine-driven code-jockeying. I know this project is going to be even more rewarding than that experience due to how much more complex and refined this upcoming book output system is. I guess this is what it feels like to ship a boxed product. Haha.
+
+Next stop ... working on projects that I haven't severely under-quoted on. Profitable projects AHOY!

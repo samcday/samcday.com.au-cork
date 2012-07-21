@@ -1,0 +1,29 @@
+---
+date: '2010-05-15 13:22:27'
+layout: post
+slug: study
+status: publish
+title: Study...
+wordpress_id: '115'
+categories:
+- Personal
+- Technology
+tags:
+- musings
+- open universities australia
+- study
+---
+
+Well, after some deliberation I have decided to get back on the horse, so to speak, with my tertiary study. Through the miracle of the interwebs and an organization called [Open Universities Australia (OUA)](http://www.open.edu.au/), I've been studying a degree for the past 8 years on and off.
+
+The undergraduate course I'm studying - one Bachelor of Technology (majoring in Computing Studies), is only supposed to take 3 years fulltime. Unfortunately my study-ethic was pretty terrible when I was younger, so I'm currently only about half way through. To be fair, I did start studying when I was 13 and I guess I just never took my studies too seriously; lack of maturity and focus etc etc. You understand, right? Right?...
+
+Well, anyway. I've picked up two units to study this Study Period (the OUA equivalent of a semester - except they cram 4 in one year for max profitz), which is going to be interesting because apparently this workload is equivalent to a standard fulltime uni workload. As it happens, I'm also working full-time right now, so the next few months will definitely not leave me for want of stimulation or entertainment.
+
+The two units I'm studying are [CPT223 - Scripting Language Programming](https://www.open.edu.au/wps/portal/oua/what-study/unit?ouaYear=2010&ouaUnitCode=CPT223&ouaOrigin=SearchResults) and [CPT373 - Web Development Technologies](https://www.open.edu.au/wps/portal/oua/what-study/unit?ouaYear=2010&ouaUnitCode=CPT373&ouaOrigin=SearchResults). My fulltime job pretty much completely consists of writing rich AJAX web application stuff in PHP/JS, so I'm hoping these units won't pose too much of a threat. That being said though, I haven't worked with Python or Perl at all, ever. I have worked with other scripting languages however, such as Small and LUA. I've also had relatively little exposure to .NET, although again I worked on decent sized project that consisted of a C# web service backend and VB/C# .NET frontend applications.
+
+Supposedly, a unit should be given at least 10 hours of study a week. So if I'm doing 2 units, 20 hours - I'm theoretically going to need to study about 3 hours a day to keep up with the pace. Given that I'm working 8 hours a day, I'm somewhat banking on the hope that because I'm already pretty familiar with the technologies and principles being covered in these units, my workload should be around half to 2/3 of what it should normally be. I think I can swing 1.5 - 2 hours a day on study, no sweat.
+
+Even if this doesn't end up being the case, my employment arrangement is in reality a 80% salary deal, although I'm currently working a full 5 days there as there's a fair bit going on. If my study load became too heavy, there is the possibility that I could scale back a bit to 4 days a week, or even 4.5 days a week (work 5 days every second week).
+
+Study begins in earnest on 1st June! Wish me luck!

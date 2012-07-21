@@ -1,0 +1,4 @@
+{
+	"handler": "jekyll",
+	"layout": "bootslapped-blog"
+}

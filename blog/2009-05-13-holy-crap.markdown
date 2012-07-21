@@ -1,0 +1,18 @@
+---
+date: '2009-05-13 21:40:09'
+layout: post
+slug: holy-crap
+status: publish
+title: Holy Crap.
+wordpress_id: '6'
+categories:
+- Technology
+---
+
+Took a break from work for a few mins and let myself get sidetracked ...
+
+I stumbled upon this website: [http://www.chromeexperiments.com/](http://www.chromeexperiments.com/)
+
+There is some amazing stuff on there. I did not think Javascript could produce such amazing results. It's also hilarious to see how well Google Chrome outperforms Firefox (check out the Monster experiment, compare Firefox and chrome, lol.).
+
+Welp ... back to work ...

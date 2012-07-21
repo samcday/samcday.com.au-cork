@@ -1,0 +1,31 @@
+---
+date: '2010-05-03 23:27:34'
+layout: post
+slug: '98'
+status: publish
+title: iPad dealbreaker...
+wordpress_id: '98'
+categories:
+- Personal
+- Technology
+tags:
+- GPS
+- iPad
+- MiFi
+- rant
+- WiFi
+---
+
+So. I was entertaining the notion of buying an iPad at some point shortly after they come out in Australia. Buying one would ensure two things happen. First, I would be able to parade it around and demonstrate what an awesome early-adopter I am. Second, I would then know for sure whether or not the iPad was worth purchasing, or if it isn't. Seriously, that's how good Apple is at marketing, they build product images that completely blur the line between the rational - "I want to buy this because it serves a functional purpose that will enhance my day to day life in some way", and the emotional - "LOOK AT THE CURVES ON THAT SUCKER! I HAVE TO OWN ONE SO OTHER PEOPLE WILL SEE HOW TRENDY AND CUTTING EDGE I AM". Kudos to the scheming geniuses locked away in the Apple HQ of Cupertino, California.
+
+However! After reading about the iPad 3G launch, a rather crucial detail caught my attention that I hadn't thought about at all before. Only the 3G version will have proper GPS functionality available. What? No. I don't like this at all.
+
+I was never planning on purchasing a 3G model. I would really rather not be paying for two data plans when I'm not even close to using the data bundled into my phone contract. My plan was actually to wait until I can jailbreak my iPad and my iPhone, then run one of those awesome MiFi apps you can get on the iPhone to tether my phone to the iPad. This would essentially be 3G connectivity anyway, since I always have my phone with me. Power drain doesn't really concern me, I wouldn't be using my iPad a huge amount out and about. Further, if I'm carrying the iPad around, chances are I'll have a little case for it. If I have a case, I could be carrying around a little extra battery for the iPhone to juice it up if I'm out more than I usually am on any given day.
+
+Sure, I already own an iPhone 3GS that has GPS functionality. This isn't good enough though. If I'm going to fork out the money for a device that doesn't really solve any needs, rather it just creates new ones and fulfills them, then I expect this evolutionary device to be future-proofed. What if I want to [wire it into my car?](http://www.tested.com/news/ipad-gets-hacked-into-car-dashboard/115/) What if I want to check-in to my local cafe using Foursquare while I catch up on the latest news I'm reading on the iPad already? What if I'm just using the device and suddenly have a need to find out where the hell I am on Google Maps?
+
+"But Sam!", I hear you saying, "You can just whip out your trusty iPhone!". Sure, this is true. Coming back to a point I made earlier though, the iPad is a sensation more than it is a necessity. I don't **need** an iPad. I can read news articles fine on my iPhone. I haven't tried Kindle on the iPhone, but I'm pretty sure I could read a book fine on the iPhone too. My iPhone is a phone, which I could not live without. If I'm going to fork out the money for an iPad, I expect it to be as convenient as humanly possible. Otherwise, I'm just paying 700$ for a high-tech paperweight.
+
+At this point I'm not considering an iPad at all, until I see where the unofficial app developer community goes with it. Ideally, there will need to be an app on the iPad that tricks the iPad OS into thinking it has a GPS sensor (much like there's an app that tricks the iPhone OS into thinking it is connected to WiFi when it's connected to 3G), when the GPS sensor is asked to geolocate, it would connect to my WiFI-tethered iPhone and use the phones GPS sensor to get this information. This, hand-in-hand with the MiFi app I mentioned earlier, would be a complete solution to my woes. I'd then be able to buy a WiFi iPad and have all the same functionality that is offered with the iPad 3G variant, at less cost.
+
+Anything less than this and I'm not going to purchase an iPad. That is all.
