@@ -8,6 +8,11 @@ html ->
 		div class: "container", ->
 			div class: "row", ->
 				div class: "span2", ->
-					text "Sidebar."
+					h2 "Categories"
+					ul ->
+						for category in _meta.blog.categories
+							li -> 
+								a href: category.permalink, -> category.name
+								i -> " (#{category.count})"
 				div class: "span10", ->
-					div -> content
+					div -> content  
