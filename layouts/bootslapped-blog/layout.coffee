@@ -6,6 +6,7 @@ html ->
 		title "samcday.com.au"
 	body ->
 		div class: "container", ->
+			h1 -> a href: "/blog", -> "samcday.com.au"
 			div class: "row", ->
 				div class: "span2", ->
 					h2 "Categories"
@@ -15,4 +16,4 @@ html ->
 								a href: category.permalink, -> category.name
 								i -> " (#{category.count})"
 				div class: "span10", ->
-					div -> content  
+					div -> content

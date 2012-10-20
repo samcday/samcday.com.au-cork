@@ -5,6 +5,15 @@ i "#{post.date.getDate()}/#{post.date.getMonth()+1}/#{post.date.getFullYear()}"
 
 text post.content
 
+if post.tags
+	text "Tags: "
+	first = true
+	for tag in post.tags
+		if first then first = false else text ", "
+		a href: blog.tags[tag].permalink, -> tag
+
+	br()
+
 unless isArchive
 	if prevPost
 		a href: prevPost.permalink, -> "&laquo; #{prevPost.title}"
