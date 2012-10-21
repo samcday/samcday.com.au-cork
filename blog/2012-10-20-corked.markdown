@@ -1,0 +1,15 @@
+---
+date: '2012-10-20 14:16:00'
+layout: post
+slug: corked
+status: publish
+title: Corked!
+---
+
+At the time of writing, my blog suddenly got very ugly... That's because I'm in the process of switching to a static site generator I've written from scratch, called [cork](https://github.com/samcday/cork).
+
+Cork is written in Coffeescript and of course runs in Node.js. The idea is to have a pluggable static site generator that is itself opinionated about what makes up a "site" (static pages, blog posts/archives/category lists, etc), but then defers to plugins to discover the content in the site directory, render it, lay it out, and deploy it. The goal is to have a site generator that makes a "better" trade-off when it comes to opionated (and thus convenient if opionions align with end-user) vs flexible.
+
+Why? Well, I tried Octopress first. Octopress is fantastic, but very much at the extreme end of opinionated, as soon as I went against the grain, I was frequently frustrated and spent a lot of time Googling stuff. For example, at the time of research, using LESS in Octopress was a real pain, it couldn't be plugged in to the rendering pipeline. I also tried Docpad, but it's *too* flexible and requires a lot of work in layout code to query content and pull together a standard personal site + blog.
+
+So, right now you're looking at my new blog, generated using Cork and deployed to S3, and then fronted by Cloudfront. Excuse the ugliness, I'll be working on the stylish touches when I've nailed down all the functionality I need.
